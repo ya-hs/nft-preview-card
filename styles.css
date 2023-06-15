@@ -55,6 +55,12 @@ h1:hover {
     cursor: pointer;
 }
 
+.img-container {
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
 
 
 /* Description Area */
@@ -65,7 +71,7 @@ h1:hover {
     background-color: hsl(215, 32%, 27%);
     width: 100%;
     height: 2px;
-    margin: 25px 15px 10px 15px;
+    margin: 25px 15px 5px 15px;
     align-self: center;
 }
 
@@ -131,8 +137,8 @@ p {
 }
 
 .creator img {
-    height: 40px;
-    margin-right: 20px;
+    height: 35px;
+    margin-right: 15px;
     border: 1px solid white;
     border-radius: 50%;
 }
