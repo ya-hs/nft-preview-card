@@ -69,13 +69,6 @@ p {
     padding: 0;
 }
 
-main a {
-    color: white;
-    text-decoration: none;
-}
-
-
-
 /* Stat Area */
 
 
@@ -128,6 +121,7 @@ main a {
     flex-direction: row;
     align-items: center;
     padding: 0;
+    font-size: 1.1rem;
 }
 
 .creator img {
@@ -137,6 +131,9 @@ main a {
     border-radius: 50%;
 }
 
+.cr-name {
+    color: white;
+}
 
 /* Footer Area */
 
