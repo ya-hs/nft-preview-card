@@ -127,7 +127,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    align-items: start;
     height: 30px;
 }
 
@@ -136,6 +136,7 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .price p {
@@ -146,10 +147,8 @@ p {
 }
 
 .price img {
-    height: auto;
-    width: 12.5px;
-    margin: 0;
-    padding: 3px 0px;
+    height: 60%;
+    width: auto;
 
 }
 
@@ -160,7 +159,7 @@ p {
 }
 
 .time-left p {
-    margin-left: 10px;
+    margin-left: 7.5px;
 }
 
 
