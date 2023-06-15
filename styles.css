@@ -2,27 +2,153 @@
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid white; */
 }
 
 body {
     background-color: hsl(217, 54%, 11%);
-    color: white;
     font-family: Outfit;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0px 15px 30px 10px hsla(244, 76%, 8%, 0.464);
+    
+    width: 375px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+    margin: 0;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    font-size: 1.75rem;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+#preview-image {
+    border-radius: 10px;
 }
 
 
 
+/* Description Area */
 
 
 
+.sep-line {
+    background-color: hsl(215, 32%, 27%);
+    width: 100%;
+    height: 2px;
+    margin: 25px 15px 10px 15px;
+    align-self: center;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding: 0;
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+}
 
 
 
+/* Stat Area */
 
+
+
+.stat-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 30px;
+}
+
+.price {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.price p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    height: 100%;
+    margin-left: 7.5px;
+}
+
+.price img {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 3px 0px;
+
+}
+
+.time-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.time-left p {
+    margin-left: 10px;
+}
+
+
+/* Creator Area */
+
+.creator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.creator img {
+    height: 40px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+/* Footer Area */
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    color: white;
 }
     
 .attribution a { 
