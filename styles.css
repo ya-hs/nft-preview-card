@@ -146,8 +146,8 @@ p {
 }
 
 .price img {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 12.5px;
     margin: 0;
     padding: 3px 0px;
 
