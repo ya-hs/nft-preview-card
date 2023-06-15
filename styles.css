@@ -43,10 +43,16 @@ h1 {
     font-size: 1.45rem;
     margin-top: 25px;
     margin-bottom: 5px;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 #preview-image {
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -133,6 +139,13 @@ p {
 
 .cr-name {
     color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.cr-name:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 /* Footer Area */
